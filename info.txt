@@ -1,0 +1,24 @@
+NODE.JS : Entorno de ejecución de JavaScript construido con el motor de JavaScript V8 de Chrome. Es un entorno de tiempo de ejecución multiplataforma, de código abierto, para la capa del servidor. Se utiliza principalmente para crear aplicaciones de red escalables. Está diseñado para ser eficiente y fácil de usar. El ecosistema de paquetes de Node.js, npm, es el ecosistema más grande de librerías de código abierto en el mundo.
+
+NPM : Node Package Manager, es el administrador de paquetes para Node.js. Es el ecosistema de paquetes más grande del mundo, y el ecosistema más grande de librerías de código abierto en el mundo.
+
+NPX : Node Package Executor, es un ejecutor de paquetes de Node.js. Es un ejecutor de línea de comandos que viene con npm 5.2+ y ejecuta paquetes binarios de Node.js. Es una herramienta para ejecutar paquetes de Node.js sin tener que instalarlos localmente o globalmente.
+
+create-react-app : Es un paquete de Node.js que crea un proyecto de React con una configuración predeterminada. Es una herramienta de línea de comandos que se puede usar para crear proyectos de React.
+
+
+npm install|i [tipo de instalacion] <nombre del paquete>[@version del paquete]
+
+npm i --save|-S create-react-app
+npm i --save-dev|-D create-react-app
+npm i -g create-react-app
+
+
+1) Instalar Node (se descarga de internet y se instala como cualquier programa)
+2) Abrir una consola de comandos (cmd|git bash|powershell|terminal|etc...)
+3) Instalar create-react-app (npm i -g create-react-app)
+
+
+
+
+JSX : 
