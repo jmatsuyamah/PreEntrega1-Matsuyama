@@ -21,4 +21,53 @@ npm i -g create-react-app
 
 
 
-JSX : 
+JSX : Es la sintaxis que usa react para crear elementos
+
+
+WEBPACK : EMPAQUETADOR DE MODULOS (bundler / src/index.js )
+
+BABEL : "Traductor" de JavaScript en algo mas compatible con los navegadores (Transpiler)
+
+
+react-dom : Es la librería que se encarga de renderizar los elementos de React en el DOM (Document Object Model)
+
+DOM : Es la representación de un documento HTML como un árbol de objetos. Es una interfaz de programación de aplicaciones (API) para documentos HTML y XML. 
+
+
+VIRTUAL DOM : Es una representación del DOM en memoria. Es una capa de abstracción que permite a los frameworks y librerías manipular el DOM de forma más eficiente y renderizar solo los cambios necesarios cuando los datos cambian.
+
+
+render / renderizar : dibujar en pantalla / mostrar en pantalla / mostrar en el DOM
+
+
+COMPONENTE DE REACT : Es una funcion que tienen que retornar algo obligatoriamente y su nombre arranca en mayuscula
+
+
+
+function Foo(){
+    return "Hola Mundo"
+}
+
+Foo()   <Foo/>
+
+
+
+function Foo(){
+    return <h1>Hola Mundo</h1>
+    }
+
+
+
+function Foo(){
+    return <h1>Hola Mundo</h1><h1>Hola Mundo</h1> //esta mal
+}
+
+
+function Foo(){
+    return <div><h1>Hola Mundo</h1><h1>Hola Mundo</h1></div>
+}
+
+
+function Foo(){
+    return <><h1>Hola Mundo</h1><h1>Hola Mundo</h1></> 
+}
