@@ -71,3 +71,148 @@ function Foo(){
 function Foo(){
     return <><h1>Hola Mundo</h1><h1>Hola Mundo</h1></> 
 }
+
+
+
+REACT-BOOTSTRAP
+https://react-bootstrap.github.io/
+
+REACTSTRAP
+https://reactstrap.github.io/
+
+BEM
+http://getbem.com/introduction/
+
+MATERIAL UI
+https://material-ui.com/
+
+ANT DESIGN
+https://ant.design/
+
+CHAKRA UI
+https://chakra-ui.com/
+
+TAILWIND CSS
+https://tailwindcss.com/
+
+STYLED COMPONENTS
+https://styled-components.com/
+
+const config {
+    selector : "h1",
+    text : "Hola Mundo",
+    className : "foo",
+    change : true
+}
+
+
+function foo(params){
+    if(params.change){
+        linea 1
+        linea 2
+    }else{
+        linea 1
+        linea 2
+        linea 3
+    }
+}
+
+
+foo(config)
+foo(config2)
+foo(config3)
+
+
+
+GIT : Es el programa que usamos para : 
+
+    - Controlador de versiones (commits)
+    - Desarrollo colaborativo (github)
+
+GITHUB - GITLAB - BITBUCKET : CLientes/Hosts de GIT
+
+GITHUB FOR WINDOWS : Cliente de GIT para Windows (https://desktop.github.com/)
+
+
+
+class App {
+    
+    constructor(){
+        this.state = {
+            contador : 0,
+            nombre : "Juan"
+        }
+    }
+    
+}
+
+
+
+
+HOOKS : 
+
+    - useState
+    - useEffect
+    - useContext
+    - useReducer
+    - useCallback
+    - useMemo
+    - useRef
+    - useImperativeHandle
+    - useLayoutEffect
+    - useDebugValue
+
+- Son siempre funciones 
+- No se pueden usar en clases
+- No se puede usar fuera del componente
+- No se pueden usar en ciclos
+- No se pueden usar en condiciones
+- Siempre comienzan con "use"
+- Si esta importado , se usa ahi
+
+useState : siempre da un array con dos elementos, el primero es el estado (inicial) y el segundo es una funcion que actualiza el estado , el estado no se puede modificar si no se usa la funcion.
+
+
+CONTAINER PATTERN : Es un patron de diseño que consiste en tener como minimo dos componentes : 
+
+    - Container : Este componente se encarga de manejar el estado y las funciones que se le pasan al componente presentacional , consigue la informacion y pasa todo a traves de props al componente presentacional.
+
+    - Presentational : Este componente se encarga de mostrar la informacion que recibe a traves de props, puede tener logica pero muy chica, solo para mostrar la informacion que recibe.
+
+
+DESTRUCTURING : Es una forma de extraer valores de un objeto o array y asignarlos a variables.
+
+
+
+const arr = [1,2,3]
+
+const [uno,dos,tres] = arr
+
+const uno = arr[0]
+const dos = arr[1]
+const tres = arr[2]
+
+
+
+
+const obj = {x:1,y:2,z:3}
+const {x:x,y:y,z:z} = obj
+const {x,y,z} = obj
+
+const x = obj.x
+const y = obj.y
+const z = obj.z
+
+
+
+
+OBJECT PROPERTY SHORTHAND : Es una forma de escribir propiedades de objetos de forma mas corta.
+
+const nombre = "horacio"
+
+const persona = {
+    nombre : nombre
+}
+
+
+const persona = { nombre }
