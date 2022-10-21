@@ -1,5 +1,6 @@
 import React from 'react'
 import ContadorContainer from './ContadorContainer'
+import UserContainer from './UserContainer'
 
 const Main = () => {
 
@@ -7,6 +8,7 @@ const Main = () => {
         <main>
             <h2>Home</h2>
             <ContadorContainer/>
+            <UserContainer/>
         </main>
     )
 }

@@ -135,16 +135,84 @@ GITHUB FOR WINDOWS : Cliente de GIT para Windows (https://desktop.github.com/)
 
 
 
-class App {
+
+
+
+MOUNT
+UPDATE
+UNMOUNT
+
+
+class Clock {
     
+
+    let conexionViva = undefined //
+    let intervalo = undefined//
+
     constructor(){
         this.state = {
             contador : 0,
             nombre : "Juan"
         }
     }
-    
+
+    handleScroll(){
+
+    }
+
+    componentDidMount(){
+        console.log("test")
+        pedidos a Api
+        conexiones con servidores
+
+        setTimeout(()=>{},1000)
+
+        invervalo = setInterval(()=>{
+            console.log("test")
+        },1000)
+
+        const socket = new WebSocket("ws://localhost:8080")
+        conexionViva = socket
+
+        subscripciones a eventos
+
+        document.addEventListener("scroll",this.handleScroll)
+    }
+
+    componentDidUpdate(){
+        console.log("test")
+    }
+
+    componentWillUnmount(){
+        document.removeEventListener("srcoll",this.handleScroll)
+        conexionViva.close()
+        clearInterval(intervalo)
+    }
+
+    shouldComponentUpdate(){
+
+    }
+
+    render(){
+
+    }
+
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -171,6 +239,10 @@ HOOKS :
 - Si esta importado , se usa ahi
 
 useState : siempre da un array con dos elementos, el primero es el estado (inicial) y el segundo es una funcion que actualiza el estado , el estado no se puede modificar si no se usa la funcion.
+
+
+
+
 
 
 CONTAINER PATTERN : Es un patron de diseño que consiste en tener como minimo dos componentes : 
@@ -216,3 +288,29 @@ const persona = {
 
 
 const persona = { nombre }
+
+
+Pancho [con lluvia de papas] + {bebida}
+
+
+
+npm i [-g|-S|-D] {expression}
+
+
+expression : 
+
+
+
+/src
+    /components
+        /layout
+            Header.js
+            Footer.js
+            Main.js
+            App.js
+        /pages
+            Home.js
+            About.js
+            Contact.js
+        /shared
+            Counter.js
