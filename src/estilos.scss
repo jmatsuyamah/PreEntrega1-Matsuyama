@@ -1,4 +1,4 @@
-$color-primary: yellow;
+$color-primary: skyblue;
 
 * {
     margin: 0;
@@ -29,14 +29,5 @@ html , body , #root {
     padding: 0.5rem 1rem;
 }
 
-main {
-    flex-grow: 1;
-    padding: 1rem;
-}
 
-footer {
-    background-color: $color-primary;
-    padding: 1rem;
-    text-align: center;
-}
 
